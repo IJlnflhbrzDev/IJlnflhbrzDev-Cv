@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+
+
+.jumbotron img { 
+    width: 150px;
+    background-size: cover;
+    border: 2px solid black;
+}
+.jumbotron img:hover{
+    width: 200px;
+    border: 3px solid yellow;
+    box-shadow: 2px 2px 5px blue,
+                -2px -2px 5px red;
+}
+.jumbotron h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.jumbotron p {
+    font-size: 25px;
+    font-style: italic;
+    margin-top: -20px;
+}
+/* style bagian hr */
+hr{
+    border: 2px solid red;
+  margin-top: -12px;
+}
+/* akhir hr  */
+button{
+  margin: 5px 0;
+}
+/* style about me pading */
+.btn{
+    width: 100%;
+    margin-top: -47px;
+    text-align: center;
+    /* padding: 0 100px */
+}
+/*akhir about  */
+
+/* style bagian about nama sekolah dan lain2 */
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* akhir styke about nama sekolah */
+/* style pembungkus sertifikat make shadow card- */
+.article{
+ 
+    margin: 0 50px;
+}
+.img-thumbnail:hover{
+    box-shadow: 2px 2px 5px red,
+                -2px -2px 5px blue;
+}
